@@ -1,0 +1,173 @@
+.Login CSS {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 2606px;
+  z-index: 20;
+}
+.Criar_uma_conta_SoftAcademy {
+  font-size: 62.542px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  line-height: 6.165;
+  text-align: center;
+  -moz-transform: scale(0.49, 0.49);
+  -webkit-transform: scale(0.49, 0.49);
+  -ms-transform: scale(0.49, 0.49);
+  position: absolute;
+  left: 724.94px;
+  top: 1808.043px;
+  z-index: 19;
+}
+.Novo_na_SoftAcademy_ {
+  font-size: 58.375px;
+  font-family: "Montserrat";
+  color: rgb(95, 104, 95);
+  line-height: 6.605;
+  text-align: center;
+  -moz-transform: scale(0.49, 0.49);
+  -webkit-transform: scale(0.49, 0.49);
+  -ms-transform: scale(0.49, 0.49);
+  position: absolute;
+  left: 789.786px;
+  top: 1709.494px;
+  z-index: 16;
+}
+.esqueceu_a_senha_ {
+  font-size: 71px;
+  font-family: "Montserrat";
+  color: rgb(148, 255, 231);
+  text-transform: uppercase;
+  line-height: 5.44;
+  text-align: center;
+  -moz-transform: scale(0.49, 0.49);
+  -webkit-transform: scale(0.49, 0.49);
+  -ms-transform: scale(0.49, 0.49);
+  position: absolute;
+  left: 788.972px;
+  top: 1563.722px;
+  z-index: 15;
+}
+.palavra_passe {
+  font-size: 87.542px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 4.404;
+  text-align: center;
+  -moz-transform: scale(0.49, 0.49);
+  -webkit-transform: scale(0.49, 0.49);
+  -ms-transform: scale(0.49, 0.49);
+  position: absolute;
+  left: 478.139px;
+  top: 1196.36px;
+  z-index: 14;
+}
+.email_ou_número_de_telefone {
+  font-size: 87.542px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 4.404;
+  text-align: center;
+  -moz-transform: scale(0.49, 0.49);
+  -webkit-transform: scale(0.49, 0.49);
+  -ms-transform: scale(0.49, 0.49);
+  position: absolute;
+  left: 478.476px;
+  top: 979.219px;
+  z-index: 13;
+}
+.entrar {
+  font-size: 100px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 3.854;
+  text-align: center;
+  -moz-transform: scale(0.49, 0.49);
+  -webkit-transform: scale(0.49, 0.49);
+  -ms-transform: scale(0.49, 0.49);
+  position: absolute;
+  left: 875.952px;
+  top: 1465.055px;
+  z-index: 12;
+}
+.Agrupar_1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 2606px;
+  z-index: 11;
+}
+.Retângulo_Arredondado_4_copiar_2 {
+  border-radius: 10px;
+  background-color: rgb(146, 245, 143);
+  position: absolute;
+  left: 484px;
+  top: 1189px;
+  width: 952px;
+  height: 112px;
+  z-index: 10;
+}
+.Retângulo_Arredondado_4_copiar_3 {
+  border-width: 3.5px;
+  border-color: rgb(135, 135, 135);
+  border-style: solid;
+  border-radius: 10px;
+  position: absolute;
+  left: 485px;
+  top: 1544px;
+  width: 946px;
+  height: 105px;
+  z-index: 9;
+}
+.Retângulo_Arredondado_4_copiar {
+  border-width: 3.5px;
+  border-color: rgb(135, 135, 135);
+  border-style: solid;
+  border-radius: 10px;
+  position: absolute;
+  left: 484px;
+  top: 1021px;
+  width: 945px;
+  height: 105px;
+  z-index: 8;
+}
+.Retângulo_Arredondado_4 {
+  border-width: 3.5px;
+  border-color: rgb(135, 135, 135);
+  border-style: solid;
+  border-radius: 10px;
+  position: absolute;
+  left: 484px;
+  top: 802px;
+  width: 945px;
+  height: 105px;
+  z-index: 7;
+}
+.Login {
+  font-size: 150px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  line-height: 2.57;
+  text-align: center;
+  -moz-transform: scale(0.49, 0.49);
+  -webkit-transform: scale(0.49, 0.49);
+  -ms-transform: scale(0.49, 0.49);
+  position: absolute;
+  left: 474.508px;
+  top: 863.269px;
+  z-index: 6;
+}
+.Camada_0 {
+  background-image: url("Camada 0.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 2606px;
+  z-index: 4;
+}

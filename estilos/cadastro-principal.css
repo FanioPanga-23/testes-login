@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fontes/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'montserrat2';
+    src: url('../fontes/Montserrat-ExtraBold.ttf') format('truetype');
+}
+
+:root{
+    --font1: 'montserrat';
+    --font2: Arial, Helvetica, sans-serif;
+    --font3: 'montserrat2';
+    --cor1: #30FFE7;
+    --cor2: #2ADE9F;
+    --cor3: #31FF2E;
+    --cor4: #3BF58B;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--font2);
+}
+
+p{
+    font-size: 0.8em;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#cadastro{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 570px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #7272723f;
+    box-shadow: 0px 0px 8px #00000034;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+}
+
+section#cadastro div#imagem{
+    background: url(../cadastro/imagens/Logotipo.png) no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 58px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+section#cadastro div#formulario{
+    display: block;
+    height: 100%;
+    padding: 10px;
+}
+
+section#cadastro div#formulario h2{
+    font-family: var(--font1);
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    color: #2ddd79;
+    padding: 15px 9px;
+}
+
+form div.campo{
+    width: 100%;
+    height: 41px;
+    background-color: #7ccea0;
+    margin: 8px 0px;
+    padding: 8px;
+    border-radius: 8px;
+    outline: 1px solid #7ccea0;
+}
+
+form div.campo input{
+    border: none;
+    width: calc(100% - 37px);
+    height: 41px;
+    padding: 8px;
+    border-radius: 8px;
+    transform: translate(9px, -8px);
+}
+
+form div.campo span.material-icons{
+    width: 32px;
+    padding: 5px 5px -2px;
+    color: #fff;
+    cursor: pointer;
+}
+
+form p#termos_condicoes{
+    text-align: center;
+    padding: 20px 20px 5px;
+}
+
+form div input[type=submit]{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 8px;
+    background-color: #70ce99;
+    text-transform: uppercase;
+    font-family: var(--font3);
+    font-size: 1em;
+    font-weight: bolder;
+    color: #edf5f1;
+    text-shadow: 1px 2px 1px #2b2b2b3a;
+}
+
+form div input[type=submit]:hover{
+    background-color: #39d37c;
+    color: #fff;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+form div input[type=submit]:active{
+    transform: scale(98%);
+}
+
+form a{
+    text-decoration: none;
+    color: #26dbc6;
+}
+
+form a:hover{
+    text-decoration: underline;
+}
+
+form p#finalquestion{
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../estilos/login.css">
+    <link rel="stylesheet" href="../estilos/media-queries-login.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <form action="" method="post" autocomplete="on">
+                <h1>Login</h1>
+                <div class="campos">
+                    <label for="mail-login">E-mail</label> 
+                    <input type="email" name="mail-login" id="mail-login" autocomplete="email" required placeholder="exemplo@domínio.com">
+                </div>
+
+                <div class="campos">
+                    <label for="current-password">Palavra-passe</label> 
+                    <input type="password" name="password" id="current-password" autocomplete="current-password" required>
+                </div>
+
+                <div>
+                    <input type="submit" value="Entrar" id="botao-entrar">
+                </div>
+
+                <p id="esqueceu-a-senha"><a href="../recuperar-senha/recupeacao.html">Esqueceu a senha?</a></p>
+
+                <div id="criar-conta">
+                    <p>Novo na SoftAcademy?</p>
+                        <a href="../cadastro/cadastro.html" target="_self">Criar conta SoftAcademy</a>
+                </div>
+                
+            </form>
+        </section>
+    </main>
+</body>
+</html>
